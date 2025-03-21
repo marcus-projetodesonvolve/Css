@@ -1,0 +1,12 @@
+.destaque {
+    font-family: Arial, sans-serif; /* Fonte padrão Arial */
+  }
+  
+  p.destaque {
+    font-weight: bold; /* Negrito se aplicado em um parágrafo */
+  }
+  
+  strong.destaque {
+    color: red; /* Vermelho se aplicado em um <strong> */
+  }
+  
