@@ -1,0 +1,11 @@
+p {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: burlywood;
+
+    border-top-style: solid;
+    border-color-top: red;
+
+    /*pode-se passar os tres paramentros da borda de uma vez
+    border: 1px solid burlywood; */
+}
