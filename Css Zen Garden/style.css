@@ -1,0 +1,16 @@
+/*cor de fundo */
+body {
+    background-color: #f70404; /* Um tom claro de cinza */
+}
+
+/* Definida a fonte */
+p {
+    font-family: Arial, sans-serif; /* Tipos de fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+}
+
+/*cor de destaque */
+a {
+    color: #48ff00;
+}
