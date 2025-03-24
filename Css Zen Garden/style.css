@@ -5,12 +5,36 @@ body {
 
 /* Definida a fonte */
 p {
-    font-family: Arial, sans-serif; /* Tipos de fonte */
+    font-family: Helvetica,sans-serif; /* Tipos de fonte */
     font-size: 16px; /* Tamanho da fonte */
+    text-indent: 1em; /* Recuo da primeira linha */
     color: #000000; /* Cor do texto */
 }
 
-/*cor de destaque */
+
+h1,h2,h3 {
+    text-align: right;
+}
+h1 {
+    font-size: 1.8rem; /* Tamanho da fonte Titulo h1*/
+}
+
+h2 {
+    font-size: 1.4rem; /* Tamanho da fonte Titulo h2 */
+}
+
+h3 {
+    font-size: 1.2rem; /* Tamanho da fonte Titulo h3 */
+}
+
+.sumary { text-align: center;}
+
+.main.p{line-height: 1.5}
+
 a {
-    color: #48ff00;
+    color: #48ff00; /*cor de destaque */
+}
+
+abbr {
+    font-variant: small-caps;
 }
