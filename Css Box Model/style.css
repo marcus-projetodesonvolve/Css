@@ -1,4 +1,4 @@
-p {
+/*p {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: burlywood;
@@ -7,5 +7,31 @@ p {
     border-color-top: red;
 
     /*pode-se passar os tres paramentros da borda de uma vez
-    border: 1px solid burlywood; */
+    border: 1px solid burlywood;
+}*/
+
+p {
+    width: 200px; /*largura do paragrafo*/
+    height: 200px; /*altura do paragrafo*/
+    border: 1px /*largura da borda*/ solid /*tipo de borda*/ burlywood; /* cor da borda do paragrafo*/
+    /*pode indicar qual lado da borda deseja alterar
+    border-top-color: red; /*cor da borda do topo do paragrafo
+    border-bottom-color: blue; /*cor da borda da base do paragrafo
+    border-left-color: green; /*cor da borda da esquerda do paragrafo
+    border-right-color: yellow; /*cor da borda da direita do paragrafo
+    */
+    padding: 25px; /*espaçamento interno do paragrafo, entre o texto e a borda do paragrafo*/
+    /*padding-top: 25px; /*espaçamento interno do paragrafo, entre o texto e a borda do topo do paragrafo
+    padding-bottom: 25px; /*espaçamento interno do paragrafo, entre o texto e a borda da base do paragrafo
+    padding-left: 25px; /*espaçamento interno do paragrafo, entre o texto e a borda da esquerda do paragrafo
+    padding-right: 25px; /*espaçamento interno do paragrafo, entre o texto e a borda da direita do paragrafo
+    */
+    margin: 25px; /*espaçamento externo do paragrafo, entre o paragrafo e o elemento vizinho*/
+    /*margin-top: 25px; /*espaçamento externo do paragrafo, entre o paragrafo e o elemento vizinho do topo do paragrafo*/
+    /*margin-bottom: 25px; /*espaçamento externo do paragrafo, entre o paragrafo e o elemento vizinho da base do paragrafo*/
+    /*margin-left: 25px; /*espaçamento externo do paragrafo, entre o paragrafo e o elemento vizinho da esquerda do paragrafo*/
+    /*margin-right: 25px; /*espaçamento externo do paragrafo, entre o paragrafo e o elemento vizinho da direita do paragrafo*/
+    
+
 }
+
