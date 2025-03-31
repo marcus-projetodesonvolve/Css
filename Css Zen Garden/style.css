@@ -5,12 +5,27 @@ body {
 
 .page-wrapper{
     width: 80%;
-    max-width: 1280px;
+    max-width: 1240px;
     margin: auto;
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #1f295c solid 1px; /* Borda direita azul */
+    padding-right: 2%; /* Espaçamento interno */
+}
+
+#design-selection {
+    position: absolute; /* Posiciona o elemento */
+    top: 350px; /* Alinha ao topo */
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #zen-intro{
-    height: 550px;
+    height: 400px;
 }
 
 #design-archives {
