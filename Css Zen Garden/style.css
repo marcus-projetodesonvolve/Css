@@ -14,6 +14,7 @@ body {
     width: 60%;
     border-right: #1f295c solid 1px; /* Borda direita azul */
     padding-right: 2%; /* Espaçamento interno */
+    margin-right: 35%;
 }
 
 #design-selection {
