@@ -170,3 +170,54 @@ a:hover {
 .design-selection li:last-of-type {
     border-bottom: blue solid 1px; /* Borda inferior azul */
 }
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static; /* Remove a posição absoluta */
+        width: 100%; /* Largura total */
+    }
+
+    .explanation {
+        border-right: none; /* Remove a borda direita */
+        width: 100%; /* Largura total */
+        
+        
+    }
+
+    #zen-intro {
+        height: auto; /* Altura automática */
+    }
+
+    .participation {
+        flex-direction: column; /* Alinha os itens em coluna */
+
+    }
+
+    p {
+        text-indent: 0; /* Remove o recuo da primeira linha */
+    }
+}
+
+@media print {
+    html { 
+           font-family: 'Times New Roman', Times, serif; /* Tipo de fonte para impressão */
+
+    }
+    #zen-intro {
+        background-color: #ffffff; /* Fundo branco para impressão */
+        color: #000000; /* Texto preto para impressão */
+    }
+
+    .design-selection {
+        position: static; /* Remove a posição absoluta */
+        width: 100%; /* Largura total */
+    }
+
+    .explanation {
+        border-right: none; /* Remove a borda direita */
+        width: 100%; /* Largura total */
+        
+        
+    }
+
+}
