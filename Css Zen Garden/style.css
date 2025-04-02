@@ -19,7 +19,7 @@ body {
 
 #design-selection {
     position: absolute; /* Posiciona o elemento */
-    top: 320px; /* Alinha ao topo */
+    top: 300px; /* Alinha ao topo */
     left: 62%;
     padding-left: 2%;
     padding-right: 2%;
@@ -145,3 +145,28 @@ abbr {
     align-self: center; /* Alinha o título ao centro */
 }
 
+a {
+    color: lightseagreen;
+
+}
+
+a:hover {
+    color: #1f295c; /* Cor de destaque ao passar o mouse */
+}
+
+.main p:first-of-type:first-letter {
+    font-size: 3em; /* Tamanho da primeira letra */
+    font-weight: bold; /* Negrito */
+    float: left; /* Alinha à esquerda */
+    line-height: 1; /* Alinha a linha */
+    padding-right: 0.1em; /* Espaçamento à direita */
+    font-family: 'Times New Roman', Times, serif; /* Tipo de fonte */  
+}
+
+.design-selection li {
+   border-top: blue solid 1px; /* Borda superior azul */
+}
+
+.design-selection li:last-of-type {
+    border-bottom: blue solid 1px; /* Borda inferior azul */
+}
